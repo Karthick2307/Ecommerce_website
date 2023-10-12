@@ -26,7 +26,7 @@ export default function Product() {
         <div className='card m-2'>
             {alert && <span className='alert alert-success'>Item added to cart</span>}
             <div className='mt-2'>
-                <img src={props.thumbnail} height={280} width={400} alt={props.title} className='border-radius' />
+                <img src={props.thumbnail} height={280} width={400} alt={props.title} className='border-radiusa' />
             </div>
             <div className='mt-2 card-body'>
                 <h5 className='card-title'>{props.title}</h5>
